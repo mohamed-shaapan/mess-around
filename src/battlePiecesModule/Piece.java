@@ -17,6 +17,11 @@ public abstract class Piece {
 		
 	private int step;
 	private boolean active;
+	//added line blah blah blah
+	//added line blah blah blah
+	//added line blah blah blah
+	//added line blah blah blah
+	//added line blah blah blah
 	//private int teamArrayLocation;
 		
 	private int initialRow; private int initialColumn;

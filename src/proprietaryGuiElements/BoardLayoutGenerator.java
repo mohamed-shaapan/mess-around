@@ -19,6 +19,7 @@ public class BoardLayoutGenerator {
 	//01_ATTRIBUTES
 	//********************************************************
 	private BoardElementsGenerator boardElements;
+	//added line blah blah blah
 
 	//02_CONSTRUCTOR
 	//********************************************************
@@ -100,6 +101,8 @@ public class BoardLayoutGenerator {
 		createWhitePieces();
 		createBlackPieces();
 	}
+	
+	//added line blah blah blah
 	
 	//*********************************************************
 	private void createWhitePieces() throws FileNotFoundException{
