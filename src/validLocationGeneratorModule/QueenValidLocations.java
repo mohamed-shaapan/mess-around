@@ -13,6 +13,12 @@ public class QueenValidLocations implements ValidLocations{
 	private Piece piece;
 	private int currentRow; private int currentCol;
 	private LocationGenerator locationGenerator;
+	//new lines added
+	//new lines added
+	//new lines added
+	
+	//new lines added
+	//new lines added
 	
 	
 	//02_Constructor**********************

@@ -12,26 +12,6 @@ import gameEngineModule.ChessGame;
 
 public class XMLFileHandler{
 
-	
-	//01_SAVE GAME
-	//**************************************************************
-	protected static boolean saveGame(ChessGame gameSet, File chosenFile){
-		try {
-			//01_Open file
-			XMLEncoder outputWriter=new XMLEncoder(new BufferedOutputStream(new FileOutputStream(chosenFile)));
-			//02_Write to file
-			outputWriter.writeObject(gameSet);
-			//03_Close file
-			outputWriter.close();
-			return true;
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			System.out.println("Error creating or opening file");
-			return false;
-		}
-	}
-	
-	
 	//02_LOAD GAME
 	//**************************************************************
 	protected static ChessGame loadGame(String fileLocation){
