@@ -14,6 +14,7 @@ public class WhiteTeam {
 	//01_Attributes***********************
 	//*************************************************************************
 	private Piece[] whiteTeam;
+	//new lines added
 	
 	//02_Constructor**********************
 	//*************************************************************************
@@ -29,12 +30,7 @@ public class WhiteTeam {
 		whiteTeam[7]=new Rook(gameBoard, "ROK", "rook", "white", "black", 7, true, 7, 7, 7, 7);
 		whiteTeam[8]=new Pawn(gameBoard, "PWN", "pawn", "white", "black", 1, true, 6, 0, 6, 0);
 		whiteTeam[9]=new Pawn(gameBoard, "PWN", "pawn", "white", "black", 1, true, 6, 1, 6, 1);
-		whiteTeam[10]=new Pawn(gameBoard, "PWN", "pawn", "white", "black", 1, true, 6, 2, 6, 2);
-		whiteTeam[11]=new Pawn(gameBoard, "PWN", "pawn", "white", "black", 1, true, 6, 3, 6, 3);
-		whiteTeam[12]=new Pawn(gameBoard, "PWN", "pawn", "white", "black", 1, true, 6, 4, 6, 4);
-		whiteTeam[13]=new Pawn(gameBoard, "PWN", "pawn", "white", "black", 1, true, 6, 5, 6, 5);
-		whiteTeam[14]=new Pawn(gameBoard, "PWN", "pawn", "white", "black", 1, true, 6, 6, 6, 6);
-		whiteTeam[15]=new Pawn(gameBoard, "PWN", "pawn", "white", "black", 1, true, 6, 7, 6, 7);
+
 	}
 	
 	//03_Methods**************************
