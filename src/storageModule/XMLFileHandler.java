@@ -28,6 +28,10 @@ public class XMLFileHandler{
 			// TODO Auto-generated catch block
 			System.out.println("Error creating or opening file");
 			return false;
+			//new lines added
+			//new lines added
+			//new lines added
+			//new lines added
 		}
 	}
 	
